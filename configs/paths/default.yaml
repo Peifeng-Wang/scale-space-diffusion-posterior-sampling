@@ -1,0 +1,3 @@
+dataset_path: /home/stalex/Documents/Intern/scale-space-diffusion-posterior-sampling/data_test
+weights_dir: /home/stalex/Documents/Intern/scale-space-diffusion-posterior-sampling/ddpm_unet_diff_ct_l
+

@@ -1,0 +1,5 @@
+defaults:
+  - default
+  - _self_
+
+weights_dir: /absolute/path/on/your/machine/to/checkpoints

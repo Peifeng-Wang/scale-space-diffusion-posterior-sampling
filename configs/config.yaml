@@ -1,0 +1,9 @@
+defaults:
+  - paths: default
+  - dataloader: base
+  - modelset: unet_diff_3levels #drunet_3levels
+  - experiment: sparse_view/30
+  - _self_
+
+name: default_run
+device: cpu

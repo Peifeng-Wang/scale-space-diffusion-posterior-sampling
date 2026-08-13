@@ -1,0 +1,26 @@
+# Ignore dirs
+*weights/
+*outputs/
+*logs/
+*tmp/
+
+# Experiment results
+/outputs/
+
+# Datasets and model weights (never commit these)
+/data_test/
+/ddpm_unet_diff_ct_l/
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Design notes (kept locally only)
+/docs/
+
+# Ignore __pycache__ directories (compiled Python files)
+__pycache__/
+*.pyc
+*.pyo
+*.vscode/

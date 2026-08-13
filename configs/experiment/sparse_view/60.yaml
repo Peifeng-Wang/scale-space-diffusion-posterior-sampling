@@ -1,0 +1,15 @@
+name: sparse_view_60
+
+params:
+  noise_level: 0.2
+  hw_init: 512
+  views: 60
+  intensity: 1e6
+  alpha: 0.9
+  sigma: 0.05
+  delta: 1e2
+
+diffusion:
+  beta_start: 0.0001
+  beta_end: 0.02
+  num_timesteps: 1000

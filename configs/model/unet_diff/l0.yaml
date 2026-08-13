@@ -1,0 +1,7 @@
+defaults:
+  - base
+  - _self_
+
+in_channels: 1
+out_channels: 1
+pretrained: ${paths.weights_dir}/ddpm_unet_diff_ct_l0/best_val.pth
