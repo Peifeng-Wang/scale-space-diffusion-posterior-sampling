@@ -81,7 +81,7 @@ Preprocessing (see `src/utils/dataloaders.py`): slices are clipped to
 `[-1000, 1500]` HU, converted to linear attenuation coefficients
 `mu = mu_water * (HU/1000 + 1)` with `mu_water = 0.0193`, and normalized to
 `[0, 1]` for the diffusion model. The test split uses patient ids
-`150-165` (`configs/dataloader/base.yaml`).
+`150-159` (part of `configs/dataloader/base.yaml`, which is the old config).
 
 The test data used for the reported results cannot be redistributed; please use
 your own data with the same layout.
